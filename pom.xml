@@ -14,13 +14,19 @@
 	<name>ejercicio</name>
 	<description>Demo project for Spring Boot</description>
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b168a16... ejercicio antes sin odata
 	<properties>
 		<java.version>1.8</java.version>
 		<odata.version>4.7.1</odata.version>
 		<javax.version>2.5</javax.version>
+<<<<<<< HEAD
 		<jmockit.version>1.41</jmockit.version>
+=======
+>>>>>>> b168a16... ejercicio antes sin odata
 	</properties>
 
 	<dependencies>
@@ -32,6 +38,10 @@
 	      <scope>provided</scope>
 	    </dependency>
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> b168a16... ejercicio antes sin odata
 		<dependency>
 		    <groupId>org.apache.olingo</groupId>
 		    <artifactId>odata-server-api</artifactId>
@@ -50,6 +60,7 @@
 	      <artifactId>odata-commons-core</artifactId>
 	      <version>4.7.1</version>
 	    </dependency>
+<<<<<<< HEAD
 
 		 <dependency>
 		    <groupId>org.jmockit</groupId>
@@ -70,6 +81,10 @@
 		    <scope>test</scope>
 		</dependency>
 		
+=======
+	
+	
+>>>>>>> b168a16... ejercicio antes sin odata
 		<dependency>
 	    	<groupId>org.apache.commons</groupId>
 	    	<artifactId>commons-lang3</artifactId>
@@ -130,11 +145,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
 		</dependency>
+<<<<<<< HEAD
 		
 		
 		
 		
 		
+=======
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+>>>>>>> b168a16... ejercicio antes sin odata
 	</dependencies>
 
 	<build>
@@ -143,9 +172,12 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+<<<<<<< HEAD
 			
 			
 			
+=======
+>>>>>>> b168a16... ejercicio antes sin odata
 		</plugins>
 	</build>
 
