@@ -1,0 +1,4 @@
+com\ejercicio\ejercicio\EjercicioApplicationTests.class
+com\ejercicio\ejercicio\service\SaleServiceTest.class
+com\ejercicio\ejercicio\controller\SaleControllerTestMokito$EmployeeServiceImplTestContextConfiguration.class
+com\ejercicio\ejercicio\controller\SaleControllerTestMokito.class
